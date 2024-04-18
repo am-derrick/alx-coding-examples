@@ -1,0 +1,2 @@
+blah: blah.c
+	gcc -Wall -Werror -Wextra -pedantic blah.c -o blah

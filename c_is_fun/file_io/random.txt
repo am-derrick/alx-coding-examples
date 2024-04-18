@@ -1,0 +1,36 @@
+Here we will show you step-by-step how to convert the decimal number 180 to binary.
+
+First, note that decimal numbers use 10 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, and 9) and binary numbers use only 2 digits (0 and 1).
+
+As we explain the steps to converting 180 to binary, it is important to know the name of the parts of a division problem. In a problem like A divided by B equals C, A is the Dividend, B is the Divisor and C is the Quotient.
+
+The Quotient has two parts. The Whole part and the Fractional part. The Fractional part is also known as the Remainder.
+
+
+Step 1) Divide 180 by 2 to get the Quotient. Keep the Whole part for the next step and set the Remainder aside.
+
+Step 2) Divide the Whole part of the Quotient from Step 1 by 2. Again, keep the Whole part and set the Remainder aside.
+
+Step 3) Repeat Step 2 above until the Whole part is 0.
+
+Step 4) Write down the Remainders in reverse order to get the answer to 180 as a binary.
+
+Here we will show our work so you can follow along:
+
+180 / 2 = 90 with 0 remainder
+90 / 2 = 45 with 0 remainder
+45 / 2 = 22 with 1 remainder
+22 / 2 = 11 with 0 remainder
+11 / 2 = 5 with 1 remainder
+5 / 2 = 2 with 1 remainder
+2 / 2 = 1 with 0 remainder
+1 / 2 = 0 with 1 remainder
+
+Then, when we put the remainders together in reverse order, we get the answer. The decimal number 180 converted to binary is therefore:
+
+10110100
+
+
+So what we did on the page was to Convert A10 to B2, where A is the decimal number 180 and B is the binary number 10110100. Which means that you can display decimal number 180 to binary in mathematical terms as follows:
+
+18010 = 101101002

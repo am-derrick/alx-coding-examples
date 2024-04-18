@@ -1,0 +1,34 @@
+The ``fizzbuzz`` module
+=========================================
+This uses the ``fizzbuzz` function
+-----------------------------------------
+
+Importing the function from the module:
+	>>> fizzbuzz = __import__("fizzbuzz").fizzbuzz
+
+Checking for module documentation:
+	>>> mod_doc = __import__("fizzbuzz").__doc__
+	>>> len(mod_doc) > 1
+	True
+
+Checking for function documentation:
+	>>> func_doc = __import__("fizzbuzz").fizzbuzz.__doc__
+	>>> len(func_doc) > 1
+	True
+
+Check if it's divisible by 3 and return fizz:
+	>>> fizzbuzz([3, 6, 18])
+	['fizz', 'fizz', 'fizz']
+
+Check if it's divisible by 5 and return buzz:
+	>>> fizzbuzz([5, 10, 20])
+	['buzz', 'buzz', 'buzz']
+
+Check if divisible by 3 and 5 and return fizzbuzz:
+	>>> fizzbuzz([15, 30, 60])
+	['fizzbuzz', 'fizzbuzz', 'fizzbuzz']
+
+Check if not divisible by 3 0r 5 and return the number:
+	>>> fizzbuzz([3, 15, 5, 2, 7])
+	['fizz', 'fizzbuzz', 'buzz', 2, 7]
+ 

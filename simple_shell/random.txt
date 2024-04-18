@@ -1,0 +1,8 @@
+Exercises
+0. av
+Write a program that prints all the arguments, without using ac.
+
+1. Read line
+Write a program that prints "$ ", wait for the user to enter a command, prints it on the next line.
+
+man 3 getline

@@ -1,0 +1,33 @@
+The ``fizzbuzz`` module
+=================================
+This uses the ``fizzbuzz`` function
+-------------------------------------
+
+Importing the function from the module:
+	>>> fizzbuzz = __import__("fizzbuzz").fizzbuzz
+
+Checking for module docstring:
+	>>> m = __import__("fizzbuzz").__doc__
+	>>> len(m) > 1
+	True
+
+Checking for function docstring:
+	>>> n = __import__("fizzbuzz").fizzbuzz.__doc__
+	>>> len(n) > 1
+	True
+
+Check if it's a multiple of 3 to return fizz:
+	>>> fizzbuzz([3, 6, 18])
+	['fizz', 'fizz', 'fizz']
+
+Check if multiple of 5 to return buzz:
+	>>> fizzbuzz([5, 10, 20])
+	['buzz', 'buzz', 'buzz']
+
+Check if multiple of 3 and 5 to return fizzbuzz:
+	>>> fizzbuzz([15, 30, 60, 90])
+	['fizzbuzz', 'fizzbuzz', 'fizzbuzz', 'fizzbuzz']
+
+Check if contains a number not divisible by 3 or 5 to return the number:
+	>>> fizzbuzz([3, 15, 5, 2, 1])
+	['fizz', 'fizzbuzz', 'buzz', 2, 1]
