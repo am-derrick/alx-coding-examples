@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ _("Hello World") }}</title>
+</head>
+<body>
+    <h1>{{ _("Hello, World!") }}</h1>
+    <p>{{ _("Welcome to our internationalized Flask app.") }}</p>
+    <hr>
+    <form action="/set_locale" method="post">
+        <label for="locale">{{ _("Choose language") }}:</label>
+        <select name="locale" id="locale">
+            <option value="en" {% if locale == 'en' %}selected{% endif %}>English</option>
+            <option value="es" {% if locale == 'es' %}selected{% endif %}>Español</option>
+            <option value="fr" {% if locale == 'fr' %}selected{% endif %}>Français</option>
+            <option value="de" {% if locale == 'de' %}selected{% endif %}>Deutsch</option>
+        </select>
+        <button type="submit">{{ _("Change") }}</button>
+    </form>
+</body>
+</html>
+
